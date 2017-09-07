@@ -1,9 +1,5 @@
 package Ex1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Ex1_3 {
     public static String URLify (String input, int length) {
         

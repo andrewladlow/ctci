@@ -1,9 +1,5 @@
 package Ex1;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 public class Ex1_6 {
     public static String stringCompression(String input) {
         

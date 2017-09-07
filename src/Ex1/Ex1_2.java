@@ -13,6 +13,7 @@ public class Ex1_2 {
         }
         
         Map<Character, Integer> charMap = new HashMap<Character, Integer>();
+        
         for (char c : inputArray1) {
             if (charMap.get(c) != null) {
                 int i = charMap.get(c);
@@ -29,6 +30,8 @@ public class Ex1_2 {
                 i--;
                 if (i >= 0) {
                     charMap.put(c, i);
+                } else {
+                    return false;
                 }
             } else {
                 return false;

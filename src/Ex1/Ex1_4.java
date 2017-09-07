@@ -24,7 +24,7 @@ public class Ex1_4 {
         int oddCount = 0;
         for (char c : inputArray) {
             int i = charMap.get(c);
-            System.out.println("c: " + c + " i: " + i);
+            //System.out.println("c: " + c + " i: " + i);
             if (i % 2 == 1) {
                 oddCount++;
             }
